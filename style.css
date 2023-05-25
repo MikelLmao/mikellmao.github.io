@@ -38,7 +38,7 @@ body {
   color: purple;
 }
 
-.header {
+.h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,9 +46,15 @@ body {
   margin: 0;
   padding: 0;
   font-size: 48px;
+  color: purple
 }
 
-.underheader {
+.h2 {
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
   
