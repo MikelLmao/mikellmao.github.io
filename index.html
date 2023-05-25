@@ -8,31 +8,31 @@
     <link rel="stylesheet" id="main" href="style.css">
 </head>
 <body>
-    
-    
 
-    <div class="clock" id="clock"></div>
-    <script>
-        function updateClock() {
-          var now = new Date();
-          var hours = now.getHours();
-          var minutes = now.getMinutes();
-          var seconds = now.getSeconds();
+  <div class="clock" id="clock"></div>
+  <script>
+      function updateClock() {
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds();
     
-          // Pad single digits with leading zeros
-          hours = ("0" + hours).slice(-2);
-          minutes = ("0" + minutes).slice(-2);
-          seconds = ("0" + seconds).slice(-2);
+        // Pad single digits with leading zeros
+        hours = ("0" + hours).slice(-2);
+        minutes = ("0" + minutes).slice(-2);
+        seconds = ("0" + seconds).slice(-2);
     
-          var clockElement = document.getElementById("clock");
-          clockElement.textContent = hours + ":" + minutes + ":" + seconds;
-        }
+        var clockElement = document.getElementById("clock");
+        clockElement.textContent = hours + ":" + minutes + ":" + seconds;
+      }
     
-        // Update the clock every second
-        setInterval(updateClock, 1000);
-      </script>
-      <header class="h1">Welecome!</header>
-      <h2 class="h2">to my website!</h2>
+      // Update the clock every second
+      setInterval(updateClock, 1000);
+    </script>
+  
+  
+  <header class="h1">Welecome!</header>
+  <h2 class="h2">to my website!</h2>
       
 </body>
 </html>
