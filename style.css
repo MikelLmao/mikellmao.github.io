@@ -38,17 +38,19 @@ body {
   color: purple;
 }
 
-.h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  margin: 0;
-  padding: 0;
-  font-size: 48px;
-  color: purple
+.SM {
+  padding-top: 3cm;
+  font-size: xx-large;
 }
 
-.login {
-  padding-left: 1700px;
+.instagram {
+  padding-top: 1cm;
+}
+
+.twitter {
+  padding-top: 1cm;
+}
+
+.discord {
+  padding-top: 1cm;
 }
