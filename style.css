@@ -21,8 +21,7 @@
   
 @font-face {
   font-family: "CustomFont";
-  src: url('Panton-BlackCaps.otf');
-  /* Add additional font formats if needed */
+  src: url("SF-Pro.ttf");
 }
 
 body {
@@ -38,7 +37,3 @@ body {
   color: purple;
 }
 
-.h1 {
-  font-family: "CustomFont";
-  src: url("SF-Pro.ttf");
-}
