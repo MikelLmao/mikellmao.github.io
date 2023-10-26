@@ -38,19 +38,7 @@ body {
   color: purple;
 }
 
-.SM {
-  padding-top: 3cm;
-  font-size: xx-large;
-}
-
-.instagram {
-  padding-top: 1cm;
-}
-
-.twitter {
-  padding-top: 1cm;
-}
-
-.discord {
-  padding-top: 1cm;
+.h1 {
+  font-family: "CustomFont";
+  src: url("SF-Pro.ttf");
 }
